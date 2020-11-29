@@ -1,0 +1,152 @@
+
+body{
+  margin: 0;
+  color:#40514E;
+  text-align: center;
+}
+
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width:8%;
+  margin: 100px auto;
+
+  }
+
+p{
+  line-height: 2;
+}
+
+
+h1{
+    color: #66BFBF;
+    margin: 0;
+    padding-top: 20px;
+    font-size: 3.5rem;
+    font-family: 'Kalam', cursive;
+
+}
+
+h2{
+  color: #66BFBF;
+  margin: 0;
+  font-family: 'Satisfy', cursive;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Kalam', serif;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Kalam', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color:#EAF6F6;
+}
+.top-container{
+  margin:0;
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+  }
+
+  .top-cloud{
+    margin:0;
+    position: absolute;
+    right: 250px;
+    top:40px;
+
+  }
+  .bottom-cloud{
+    margin:0;
+  position: absolute;
+  left:250px;
+  bottom: 230px;
+  }
+
+  .intro{
+    width: 25%;
+    margin:auto;
+  }
+
+  .end-para{
+    width: 40%;
+    margin: 40px auto 60px;
+
+  }
+
+
+  .web-development{
+    height: 100px;
+    float: left;
+    margin-right: 30px;
+    width: auto;
+  }
+  .skill{
+    height: 100px;
+    width: auto;
+    float: right;
+    margin-left: 30px;
+  }
+
+.middle-container{
+  margin:100px 0;
+
+}
+
+.skill-row{
+  width: 50%;
+  margin:80px auto 80px auto;
+  text-align: left;
+
+}
+.bottom-container{
+  background-color: #11BFBF;
+  padding: 50px 0 20px;
+
+}
+
+
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.footer-para{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
